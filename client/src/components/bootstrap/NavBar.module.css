@@ -1,0 +1,64 @@
+.custom-navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-link {
+  margin-right: 15px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f0f0f0;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+@media (max-width: 991px) {
+  .nav-link {
+    margin-right: 0;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar-collapse {
+    justify-content: center;
+  }
+}
+
+.navbar-nav .nav-link {
+  margin-right: 15px;
+  color: white !important; 
+  transition: color 0.3s ease;
+  text-decoration: none; 
+  border: none; 
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f0f0 !important; 
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #f0f0f0;
+}
+

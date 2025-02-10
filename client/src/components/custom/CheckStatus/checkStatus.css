@@ -1,0 +1,17 @@
+.status-bar-container {
+    margin-top: 20px;
+}
+
+.rejection-reason {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c2c7;
+    color: #842029;
+}
+
+.rejection-reason strong {
+    font-weight: bold;
+    color: #842029;
+}
